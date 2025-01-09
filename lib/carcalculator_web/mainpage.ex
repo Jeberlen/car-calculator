@@ -39,9 +39,9 @@ defmodule CarcalculatorWeb.MainPage do
           <button type="submit" class="w-48 bg-gray-900 text-white p-2 rounded-md">Räkna</button>
         </div>
       </form>
-      <div>
+      <div class="mt-10">
         <%= for err <- @error do %>
-            <div class="text-red-500"><%= err %></div>
+            <div class="text-red-500 text-center"><%= err %></div>
         <% end %>
       </div>
       <div class="flex flex-col items-center mt-10">
